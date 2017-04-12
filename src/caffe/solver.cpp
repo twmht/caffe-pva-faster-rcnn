@@ -190,7 +190,7 @@ void Solver<Dtype>::Step(int iters) {
      this->start_iter_ = iter_;
      start_iter = iter_;
   }
-  /*
+
   losses_.clear();
   smoothed_loss_ = 0;
   iteration_timer_.Start();

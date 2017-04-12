@@ -244,7 +244,7 @@ message SolverParameter {
   optional SolverType solver_type = 30 [default = SGD];
 
   // Overlap compute and communication for data parallel training
-  optional bool layer_wise_reduce = 41 [default = true];
+  optional bool layer_wise_reduce = 42 [default = true];
 }
 
 // A message that stores the solver snapshots
